@@ -1,0 +1,191 @@
+.about {
+    width: 100%;
+    background: rgb(216, 216, 216);
+    padding: 0;
+    background-color: #2f3943;
+}
+
+.title_res {
+    display: none;
+}
+
+.resImg {
+    display: none;
+}
+
+.main_about_page {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.main_about_page img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.title_about {
+    position: absolute;
+    top: 130px;
+    z-index: 111;
+    width: 40%;
+    left: 150px;
+}
+
+.title_about p {
+    color: rgb(193, 193, 193);
+    font-size: 1.9rem;
+}
+
+
+
+
+/* dolzarb mavzular */
+.dolzarbmavzu {
+    width: 100%;
+    position: relative;
+    height: 110vh;
+}
+
+.bgimg {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bgimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item_videos {
+    position: absolute;
+    width: 100%;
+}
+
+.main_videolar_page {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.videolar_dozarb {
+    width: 85%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.videolar_dozarb iframe {
+    width: 49.6%;
+    height: 350px;
+    background: rgb(133, 133, 133);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.w_title h2 {
+    color: #fff;
+    padding: 30px 120px;
+    font-size: 2rem;
+}
+
+
+
+
+/* ulamolar_suhbati */
+
+
+/* media about  */
+@media only screen and (max-width: 600px) {
+
+    .about {
+        width: 100%;
+        position: relative;
+    }
+
+    .resImg {
+        display: block;
+    }
+
+    .main_about_page {
+        width: 100%;
+        height: 86vh;
+    }
+
+    .main_about_page img {
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        position: absolute;
+    }
+
+    .title_res {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+    }
+
+    .title_about {
+        left: 20px;
+        width: 90%;
+        top: 40px;
+        color: #fff;
+    }
+
+    .title_about p {
+        font-size: 1rem;
+        color: rgb(191, 191, 191);
+
+    }
+
+    /* dolzarbmavzu */
+    .dolzarbmavzu {
+        height: 140vh;
+        padding: 10px 0px;
+    }
+
+
+    .w_title {
+        width: 100%;
+    }
+
+    .w_title h2 {
+        font-size: 1.4rem;
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+    .videolar_dozarb {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .videolar_dozarb iframe {
+        height: 230px;
+        width: 100%;
+    }
+
+
+    .hayriya_modal {
+        position: fixed;
+        top: 400px;
+        z-index: 1111;
+        width: 500px;
+
+    }
+
+    .item_modal {
+        margin: 0 auto;
+        width: 500px;
+        background-color: #267700;
+        padding: 20px;
+        box-shadow: 0px 0px 100px 1000px rgba(0, 0, 0, 0.634);
+    }
+
+
+}
+

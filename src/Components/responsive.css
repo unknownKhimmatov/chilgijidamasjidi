@@ -1,0 +1,403 @@
+@media only screen and (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        transition: .3s;
+    }
+
+    .container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .header_main_page {
+        position: fixed;
+        left: 0;
+    }
+
+
+    nav {
+        padding: 0;
+        width: 100%;
+        padding-right: 10px;
+        position: relative;
+        z-index: 1111;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .main_ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger i {
+        color: #fff;
+        font-size: 1.4rem;
+        transition: .3s;
+    }
+
+
+
+    .top_ham_tog {
+        transform: rotate(-30deg);
+        transition: .3s;
+    }
+
+    .bottom_ham_tog {
+        transform: rotate(-30deg);
+        transition: .3s;
+    }
+
+    .res_nav {
+        display: block;
+        position: fixed;
+        background-color: #267700;
+        top: -260px;
+        width: 100%;
+        z-index: -1;
+        overflow: hidden;
+        height: 260px;
+        transition: .3s;
+
+    }
+
+    .res_nav_toggle {
+        top: 98px;
+    }
+
+    .res_nav ul {
+        width: 100%;
+        justify-content: start;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .corusel_main {
+        width: 100%;
+
+    }
+
+    .title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .title h1 {
+        font-size: 1.5rem;
+    }
+
+    /* bolimchalar */
+    .bolimchalar {
+        width: 100%;
+    }
+
+    .bolimcha {
+        width: 100%;
+    }
+
+    .item_bolimcha {
+        width: 100%;
+    }
+
+    .start_page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .start_page .item_one {
+        width: 100%;
+        padding: 0;
+    }
+
+    .start_page .item_bolimcha img {
+        width: 100%;
+    }
+
+    .and_page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .and_page .item_one {
+        width: 100%;
+        padding: 0;
+    }
+
+    .and_page .item_bolimcha img {
+        width: 100%;
+    }
+
+    .desc_home {
+        position: absolute;
+        left: 16px;
+        width: 80%;
+    }
+
+    .desc_home p {
+        font-size: 1rem;
+    }
+
+    .about_button {
+        width: 100px;
+        height: 27px;
+        font-size: .7rem;
+    }
+
+
+
+    /* domla  */
+    .domla_main_page {
+        width: 100%;
+    }
+
+    .domla {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item_domla {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top_domla {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .icone {
+        position: absolute;
+        top: 100px;
+        left: 80px;
+    }
+
+    .top_domla img {
+        width: 380px;
+        margin-left: -40px;
+    }
+
+    /* main_all_domla */
+    .main_all_domla {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .all_page_item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* left_page */
+    .left_page {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* title_domla */
+    .title_domla {
+        margin-top: 20px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .title_domla h2 {
+        font-size: 1.4rem;
+    }
+
+    .title_domla p {
+        font-size: 1.2rem;
+    }
+
+
+    /* Footer  */
+    .footer_main_page {
+        width: 100%;
+        height: 80px;
+        padding: 0;
+    }
+
+
+    .item_footer {
+        width: 100%;
+    }
+
+    .adddres {
+        display: none;
+    }
+
+    .right_footer {
+        margin-top: -25px;
+    }
+
+    .right_footer .social h2 {
+        font-size: 1.3rem;
+    }
+
+    .logo_footer img {
+        width: 100px;
+        aspect-ratio: 1/1;
+    }
+
+    .boglanish {
+        display: none;
+    }
+
+    .ul_footer {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        display: none;
+    }
+
+    .ul_footer li a {
+        font-size: .8rem;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 390px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        padding: 0;
+        width: 100%;
+        padding-right: 10px;
+        position: relative;
+        z-index: 11111;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .main_ul {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger i {
+        color: #fff;
+        font-size: 1.4rem;
+    }
+
+
+
+
+
+    .corusel_main {
+        width: 100%;
+
+    }
+
+    .title {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .title h1 {
+        font-size: 1.3rem;
+    }
+
+
+    /* domla  */
+    .domla_main_page {
+        width: 100%;
+    }
+
+    .domla {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .item_domla {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top_domla {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }
+
+    .icone {
+        position: absolute;
+        top: 100px;
+        left: 80px;
+    }
+
+    .top_domla img {
+        width: 380px;
+        margin-left: -40px;
+    }
+
+    /* main_all_domla */
+    .main_all_domla {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .all_page_item {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    /* left_page */
+    .left_page {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* title_domla */
+    .title_domla {
+        margin-top: 20px;
+        width: 100%;
+        padding: 0;
+    }
+
+    .title_domla h2 {
+        font-size: 1.4rem;
+    }
+
+    .title_domla p {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+/* toggle all responsive */
