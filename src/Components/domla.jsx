@@ -19,8 +19,7 @@ export default function domla() {
                         <div className="left_page">
                             <div className="bottom_page">
                                 <div className="domla_img">
-                                    <img src="./images/home/domla.jpg" alt="" />
-                                </div>
+                                  </div>
                             </div>
                         </div>
                         <div className="title_domla">
